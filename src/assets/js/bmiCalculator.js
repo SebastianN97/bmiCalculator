@@ -21,4 +21,3 @@ const  getBMIClassification = (value) => {
     else {"Extremely obese"
     }
 }
-
