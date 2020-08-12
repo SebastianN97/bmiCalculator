@@ -9,13 +9,13 @@ const  getBMIClassification = (value) => {
 	if (value < 18.5){
 	return  "Underweight"
     }
-    else  if (results > 18.5 && results < 25){
+    else  if (value > 18.5 && value < 25){
 	return  "Healthy"
     }
-    else  if(results > 25 && results < 30){
+    else  if(value > 25 && value < 30){
 	return  "Overweight"
     }
-    else if(results > 30 && results < 35){
+    else if(value > 30 && value < 35){
     return "Obese"
     }
     else {
